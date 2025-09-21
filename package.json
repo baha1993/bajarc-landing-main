@@ -2,7 +2,10 @@
   "name": "bajarc-landing",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+ "scripts": {
+  "build": "next build && next export"
+}
+ "scripts": {
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
